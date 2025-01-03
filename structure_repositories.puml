@@ -1,0 +1,60 @@
+@startmindmap
+
+package "repositories" {
+   package "auth" {
+       [auth_repository.dart]
+       [token_repository.dart]
+       [verification_repository.dart]
+   }
+
+   package "user" {
+       [user_repository.dart]
+       [profile_repository.dart]
+       [preferences_repository.dart]
+   }
+
+   package "purchase" {
+       [purchase_repository.dart]
+       [delivery_repository.dart]
+       [price_repository.dart]
+   }
+
+   package "travel" {
+       [travel_repository.dart]
+       [route_repository.dart]
+       [service_repository.dart]
+   }
+
+   package "product" {
+       [product_repository.dart]
+       [category_repository.dart]
+       [inventory_repository.dart]
+   }
+
+   package "transaction" {
+       [order_repository.dart]
+       [payment_repository.dart]
+       [dispute_repository.dart]
+   }
+
+   package "chat" {
+       [chat_repository.dart]
+       [room_repository.dart]
+       [message_repository.dart]
+   }
+
+   package "community" {
+       [post_repository.dart]
+       [comment_repository.dart]
+       [reaction_repository.dart]
+   }
+
+   package "common" {
+       [base_repository.dart]
+       [cache_repository.dart]
+       [file_repository.dart]
+   }
+}
+
+
+@endmindmap
