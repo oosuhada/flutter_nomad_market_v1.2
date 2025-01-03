@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907329908",
+    "project_id": "nomadmarket-43346",
+    "storage_bucket": "nomadmarket-43346.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907329908:android:f68a3a00325d1f02b66c21",
+        "android_client_info": {
+          "package_name": "com.example.nomadmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907329908-6g519nc57mdgj7a5u28d03hqno18iv8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHLvOULUkgTHE3pRsUf6-Ib7li5kFL-hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907329908-6g519nc57mdgj7a5u28d03hqno18iv8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
