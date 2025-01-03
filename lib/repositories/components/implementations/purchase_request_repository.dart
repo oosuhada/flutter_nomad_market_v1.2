@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../models/components/entities/purchase_request.dart';
+import '../../../core/entities/purchase_request.dart';
 
 class PurchaseRequestRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

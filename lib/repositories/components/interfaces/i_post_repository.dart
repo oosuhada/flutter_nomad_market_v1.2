@@ -1,5 +1,5 @@
-import '../../../models/components/entities/comment.dart';
-import '../../../models/components/entities/post.dart';
+import '../../../core/entities/comment.dart';
+import '../../../core/entities/post.dart';
 
 abstract class IPostRepository {
   Future<Post> createPost(Post post);

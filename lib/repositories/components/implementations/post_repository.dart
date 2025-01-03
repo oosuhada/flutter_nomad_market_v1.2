@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../models/components/entities/post.dart';
+import '../../../core/entities/post.dart';
 
 class PostRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

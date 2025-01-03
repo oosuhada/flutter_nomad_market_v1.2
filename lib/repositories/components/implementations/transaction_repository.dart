@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../models/components/entities/transaction.dart'
-    as transaction_model;
+import '../../../core/entities/transaction.dart' as transaction_model;
 
 class TransactionRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

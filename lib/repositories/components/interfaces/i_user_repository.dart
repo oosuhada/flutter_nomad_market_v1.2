@@ -1,6 +1,6 @@
-import '../../../models/components/entities/user.dart';
-import '../../../models/components/entities/user_setting.dart';
-import '../../../models/components/entities/user_verification.dart';
+import '../../../core/entities/user.dart';
+import '../../../core/entities/user_setting.dart';
+import '../../../core/entities/user_verification.dart';
 
 abstract class IUserRepository {
   Future<User> createUser(User user);

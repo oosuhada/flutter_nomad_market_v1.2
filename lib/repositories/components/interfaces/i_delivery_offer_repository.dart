@@ -1,4 +1,4 @@
-import '../../../models/components/entities/delivery_offer.dart';
+import '../../../core/entities/delivery_offer.dart';
 
 abstract class IDeliveryOfferRepository {
   Future<DeliveryOffer> createDeliveryOffer(DeliveryOffer offer);

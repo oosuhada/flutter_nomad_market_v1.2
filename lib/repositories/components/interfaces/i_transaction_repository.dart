@@ -1,4 +1,4 @@
-import '../../../models/components/entities/transaction.dart';
+import '../../../core/entities/transaction.dart';
 
 abstract class ITransactionRepository {
   Future<Transaction> createTransaction(Transaction transaction);

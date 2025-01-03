@@ -1,5 +1,5 @@
-import '../../../models/components/entities/chat_message.dart';
-import '../../../models/components/entities/chat_room.dart';
+import '../../../core/entities/chat_message.dart';
+import '../../../core/entities/chat_room.dart';
 
 abstract class IChatRepository {
   Future<ChatRoom> createChatRoom(ChatRoom chatRoom);

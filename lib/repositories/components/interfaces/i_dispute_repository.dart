@@ -1,4 +1,4 @@
-import '../../../models/components/entities/dispute.dart';
+import '../../../core/entities/dispute.dart';
 
 abstract class IDisputeRepository {
   Future<Dispute> createDispute(Dispute dispute);

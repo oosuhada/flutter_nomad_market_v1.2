@@ -1,4 +1,4 @@
-import '../../../models/components/entities/purchase_request.dart';
+import '../../../core/entities/purchase_request.dart';
 
 abstract class IPurchaseRequestRepository {
   Future<PurchaseRequest> createPurchaseRequest(PurchaseRequest request);

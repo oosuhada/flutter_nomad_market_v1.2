@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../models/components/entities/travel.dart';
+import '../../../core/entities/travel.dart';
 
 class TravelRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

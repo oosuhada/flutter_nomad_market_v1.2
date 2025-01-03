@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../models/components/entities/dispute.dart';
+import '../../../core/entities/dispute.dart';
 
 class DisputeRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

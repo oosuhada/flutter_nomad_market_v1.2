@@ -1,4 +1,4 @@
-import '../../../models/components/entities/travel.dart';
+import '../../../core/entities/travel.dart';
 
 abstract class ITravelRepository {
   Future<Travel> createTravel(Travel travel);
